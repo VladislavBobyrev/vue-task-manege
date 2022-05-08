@@ -1,0 +1,67 @@
+a,
+button:not(:disabled) {
+  color: inherit;
+  border-radius: 5px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+
+a:hover,
+button:not(:disabled):hover {
+  background: $bg-secondary;
+  color: $color-accent;
+}
+button:disabled{
+  border-radius: 5px;
+  padding: 0.3rem 0.8rem;
+}
+.btn-basic{
+  background: $bg-secondary-50;
+}
+.primary{
+  background: rgb(85, 144, 72);
+}
+.warning{
+  background: rgb(144, 136, 72);
+}
+.danger{
+  background: rgb(144, 72, 114);
+}
+a, button{
+  font-size: 1.3rem;
+  
+}
+.big-title{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background:  radial-gradient(circle, $bg-primary, $bg-basic 100%);
+  border-radius: 5px;
+  padding: 0.3rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.title{
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+input{
+  background: $placeholder;
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+  min-width: 230px;
+}
+.icon-svg{
+  cursor: pointer;
+  color: $bg-basic;
+  background: transparent;
+}
+.icon-svg:hover{
+  cursor: pointer;
+  color: $bg-accent;
+}
+.bg-accent{
+  background: $bg-accent;
+}

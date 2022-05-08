@@ -1,0 +1,48 @@
+html,
+body,
+#app {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: $bg-basic;
+  color: $bg-secondary;
+}
+
+.container {
+  padding: 0.5rem;
+  overflow: scroll;
+  height: calc(100% - 70px);
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.direction-column{
+  flex-direction: column;
+}
+.space-between{
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.card{
+  padding: 1rem;
+  border-radius: 5px;
+  background: $bg-primary-75;
+}
+.gap1{
+  gap: 1rem;
+}
+.gap2{
+  gap: 2rem;
+}
+.mb-1rem{
+  margin-bottom: 1rem;
+}
+.mb-2rem{
+  margin-bottom: 2rem;
+}
+.uppercase{
+  text-transform: uppercase;
+}

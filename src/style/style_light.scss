@@ -1,0 +1,27 @@
+//=====================================================
+//          ОБНУЛЕНИЕ	БРАУЗЕРОВ + УТИЛИТЫ
+//=====================================================
+@import "../style/utils/resets";
+@import "../style/utils/variables-light";
+@import "../style/utils/mixin";
+@import "../style/utils/scroll";
+
+//=====================================================
+//                 ПОДКЛЮЧЕНИЕ ШРИФТОВ
+//=====================================================
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+//=====================================================
+//                 ПОДКЛЮЧЕНИЕ СТИЛЕЙ
+//=====================================================
+@import "../style/ui/ui";
+@import "../style/ui/global";
+
+// PAGE
+@import "../views/New/New";
+@import "../views/Task/Task";
+@import "../views/Tasks/Tasks";
+
+// COMPONENTS
+@import "../components/TheNavbar/TheNavbar";
+@import "../components/AppStatus/appStatus";
